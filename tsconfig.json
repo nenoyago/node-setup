@@ -3,7 +3,9 @@
     "target": "es2017",
     "module": "commonjs",
     "esModuleInterop": true,
-    "lib": ["es6"],
+    "lib": [
+      "es6"
+    ],
     "outDir": "./dist",
     "rootDir": "./src",
     "typeRoots": [
@@ -17,10 +19,21 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@controllers/*": ["./src/controllers/*"],
-      "@models/*": ["./src/models/*"],
-      "@views/*": ["./src/views/*"],
-      "@config/*": ["./src/config/*"]
+      "@controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@views/*": [
+        "./src/views/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ]
     }
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
